@@ -40,7 +40,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 2rem;
     width: 100%;
 }
 
@@ -156,9 +156,6 @@ body {
 .hero-container {
     position: relative;
     z-index: 2;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 3rem;
 }
 
 .hero-content {
@@ -609,89 +606,6 @@ section {
     border: 1px solid var(--border-color);
 }
 
-/* Research Section */
-.research {
-    background: var(--bg-secondary);
-}
-
-.research-content {
-    margin-top: 3rem;
-}
-
-.research-paper {
-    background: var(--bg-tertiary);
-    padding: 2.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
-    transition: all 0.3s ease;
-}
-
-.research-paper:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--highlight-color);
-}
-
-.research-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-    gap: 1rem;
-}
-
-.research-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin: 0;
-    line-height: 1.3;
-}
-
-.research-type {
-    background: var(--highlight-color);
-    color: var(--text-primary);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-weight: 500;
-    white-space: nowrap;
-}
-
-.research-description {
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-.research-impact {
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    font-style: italic;
-}
-
-.research-tech {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-@media (max-width: 768px) {
-    .research-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .research-paper {
-        padding: 1.5rem;
-    }
-    
-    .research-title {
-        font-size: 1.25rem;
-    }
-}
-
 /* Education Section */
 .education {
     background: var(--bg-secondary);
@@ -924,10 +838,6 @@ section {
         gap: 2rem;
     }
     
-    .hero-container {
-        padding: 0 2rem;
-    }
-    
     .hero-title {
         font-size: 2.5rem;
     }
@@ -978,7 +888,7 @@ section {
     }
     
     .container {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 }
 
@@ -1001,13 +911,5 @@ section {
     
     .certifications-grid {
         grid-template-columns: 1fr;
-    }
-    
-    .container {
-        padding: 0 1.5rem;
-    }
-    
-    .hero-container {
-        padding: 0 1.5rem;
     }
 }
